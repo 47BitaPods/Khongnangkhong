@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.slide{
+    height:86.28048780487805vh;
+    overflow-y: hidden;
+}
+.navy{
+    z-index: 1000 !important;
+}
+.totalhome{
+    z-index:1;
+}
+/* .s1{
+    height:86.28048780487805vh;
+    width:100vw;
+    background-image: url("beautiful-view-construction-site-city-during-sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.s2{
+    height:86.28048780487805vh;
+    width:100vw;
+    background-image: url("professional-engineer-protective-helmet-blueprints-paper-house-building-construction-site.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.s3{
+    height:86.28048780487805vh;
+    width:100vw;
+    background-image: url("jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} */
+.s1,
+.s2,
+.s3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midset{
+    height:86.28048780487805vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-home{
+    font-family: Poppins;
+    font-size: 5vh;
+    color:aliceblue;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.low-home{
+    font-family: Poppins;
+    font-size: 3.5vh;
+    color:aliceblue;
+    text-shadow: 0.8px 0.8px rgb(0, 0, 0);
+}
+.scroll-control {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.scroll-control span {
+    cursor: pointer;
+    display: block;
+    width: 2vw;
+    height: 1vh;
+    border-radius: 50%;
+    margin: 10px 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+.scroll-control span:hover {
+    opacity: 1;
+}
+@media all and (max-width: 1023px) {
+    .scroll-control span {
+        display: none;
+    }
+}
+.s-one{
+    height:100vh;
+    overflow-y: hidden;
+}
+.totalhome{
+    width:100vw !important;
+    overflow-x: hidden;
+}

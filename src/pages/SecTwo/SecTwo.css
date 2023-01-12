@@ -1,0 +1,76 @@
+.sectwo{
+    height:100vh;
+}
+.gap{
+    min-height:5vh;
+}
+
+.top-two{
+    font-family: Poppins;
+    font-size: 5vh;
+    color:rgb(0, 39, 73);
+    font-weight: 500;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    width:100vw;
+    height:25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.low-two{
+    font-family: Poppins;
+    font-size: 3.5vh;
+    color:rgb(0, 0, 0);
+    text-shadow: 0.8px 0.8px rgb(0, 0, 0);
+}
+.sectwo-item{
+    width:20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.sectwo-bot{
+    display: flex;
+    height:70vh;
+    width:100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.vl {
+    border-left: 4px solid rgb(210, 84, 16);
+    height: 40vh;
+  }
+  .icon{
+    font-size: 8vh;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+  }
+  .sectwo-img{
+    height:30vh;
+  }
+  .center-img{
+    width:100vw;
+    
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 800px) {
+    .sectwo-item{
+        width:45vw;
+        padding-top: 2vh;
+    }
+    .sectwo-bot{
+        height: max-content !important;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+        flex-wrap: wrap;
+    }
+    .sectwo{
+        min-height: 160vh !important;
+    }
+  }
+  @media (max-width: 1200px) {
+    .sectwo{
+        height:100% !important;
+    }
+  }
